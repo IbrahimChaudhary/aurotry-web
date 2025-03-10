@@ -1,6 +1,6 @@
 import React from "react";
 import { Mail, Phone, ArrowRight } from "lucide-react";
-import Logo from "../../../public/icons/Logo";
+import Logo from "./icons/Logo";
 
 const Footer: React.FC = () => {
   return (

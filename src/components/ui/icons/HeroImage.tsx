@@ -7,7 +7,7 @@ interface HeroProps {
   className?: string;
 }
 
-const Hero: React.FC<HeroProps> = ({ width = 1243, height = 684, }) => {
+export const Hero: React.FC<HeroProps> = ({ width = 1243, height = 684, }) => {
   return (
     <Image 
       src="/hero.svg" 
@@ -20,4 +20,4 @@ const Hero: React.FC<HeroProps> = ({ width = 1243, height = 684, }) => {
   );
 };
 
-export default Hero;
+

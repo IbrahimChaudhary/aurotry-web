@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
-import Logo from "../../../public/icons/Logo";
+import Logo from "./icons/Logo";
 
 const Header: React.FC = () => {
   return (

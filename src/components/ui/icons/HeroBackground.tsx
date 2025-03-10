@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const HeroBackground: React.FC = () => {
+export const HeroBackground: React.FC = () => {
   return (
     <div className="absolute inset-0 w-full h-full  z-[1] pointer-events-none">
       {/* Top Left SVG */}
@@ -43,5 +43,4 @@ const HeroBackground: React.FC = () => {
   );
 };
 
-export default HeroBackground;
 
