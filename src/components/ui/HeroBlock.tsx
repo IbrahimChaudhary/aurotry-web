@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
-import Hero from "../icons/HeroImage";
-import HeroBackground from "../icons/HeroBackground";
+import Hero from "../../../public/icons/HeroImage";
+import HeroBackground from "../../../public/icons/HeroBackground";
 
 const HeroBlock: React.FC = () => {
   return (
