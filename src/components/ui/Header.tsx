@@ -6,7 +6,6 @@ const Header: React.FC = () => {
   return (
     <nav className="w-full h-[112px]  flex justify-center items-center">
       <div className="w-[1320px] h-[72px] bg-white shadow-md rounded-[1000px] flex items-center px-6">
-        {/* Left Section */}
         <div className="flex items-center">
           <Logo width={40} height={40} />
           <div className="w-[43px]"></div>
