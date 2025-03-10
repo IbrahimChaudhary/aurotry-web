@@ -7,14 +7,14 @@ interface HeroProps {
   className?: string;
 }
 
-const Hero: React.FC<HeroProps> = ({ width = 1243, height = 684, className = "" }) => {
+const Hero: React.FC<HeroProps> = ({ width = 1243, height = 684, }) => {
   return (
     <Image 
       src="/hero.svg" 
       alt="hero" 
       width={width} 
       height={height} 
-      className={className}
+      className="absolute z-[2]"
       priority
     />
   );

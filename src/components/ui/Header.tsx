@@ -25,7 +25,7 @@ const Header: React.FC = () => {
           <button className="text-black font-bold">Contact Us</button>
           <div className="w-[3px] h-[20px] bg-gray-300"></div>
           <button className="text-black font-bold">Log In</button>
-          <button className="flex items-center space-x-2 px-6 py-2 bg-black text-white rounded-full">
+          <button className="flex items-center space-x-2 pl-5 pr-2 py-2 bg-black text-white rounded-full">
             <span>Sign Up</span>
             <span className="relative flex items-center justify-center w-6 h-6 bg-white rounded-full">
               <ArrowRight className="w-4 h-4 text-black" />
