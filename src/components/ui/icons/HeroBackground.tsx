@@ -28,7 +28,7 @@ export const HeroBackground: React.FC = () => {
         alt="Background SVG 3"
         width={600}
         height={600}
-        className="absolute bottom-[190px] left-[0px] rounded-[50]"
+        className="absolute top-[150px] left-[0px] rounded-[50]"
       />
       
       {/* Bottom Right SVG */}
