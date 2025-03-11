@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { Menu, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Logo from "./icons/Logo";
+import Logo from "./icons/logo";
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
