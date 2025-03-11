@@ -3,6 +3,7 @@ import FeaturesSection from "@/components/ui/features-section";
 import Footer from "@/components/ui/footer";
 import Header from "@/components/ui/header";
 import HeroBlock from "@/components/ui/hero-block";
+import PlansSection from "@/components/ui/plans-section";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <HeroBlock/>
     <BenefitsSection/>
     <FeaturesSection/>
+    <PlansSection/>
     <Footer/>
 
    </>

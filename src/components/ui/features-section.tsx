@@ -41,13 +41,13 @@ const features = [
 
 const FeaturesSection: React.FC = () => {
     return (
-      <section className="max-w-[1440px] min-h-screen flex flex-col items-center gap-12 mx-auto p-4">
+      <section className="max-w-[1440px] min-h-screen flex flex-col items-center gap-12 mx-auto my-12 p-4">
 
         <div className="max-w-[967px] text-center px-4">
-          <h3 className="text-[40px] sm:text-[32px] font-semibold leading-[120%] text-black">
+          <h3 className="text-[47px] sm:text-[32px] font-semibold leading-[120%] text-black">
             See It. Love It. Buy It.
           </h3>
-          <h5 className="text-[24px] sm:text-[18px] font-medium leading-[140%] text-[#737477]">
+          <h5 className="text-[27px] sm:text-[18px] mt-6 font-medium leading-[140%] text-[#737477]">
             Customers struggle to visualize how clothes will look or fit, leading to hesitation, abandoned carts, and costly returns. It’s time to bridge the gap between online and in-store shopping.
           </h5>
         </div>

@@ -14,9 +14,9 @@ interface FeatureCardProps {
 
 const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, gradient, Icon, SvgComponent }) => {
     return (
-      <div className={cn("relative w-full max-w-[650px] min-h-[500px] sm:min-h-[450px] p-6 sm:p-4 rounded-2xl shadow-lg overflow-hidden", gradient)}>
+      <div className={cn("relative w-full max-w-[650px] min-h-[500px] sm:min-h-[450px] p-4 sm:p-4 rounded-2xl shadow-lg overflow-hidden", gradient)}>
        
-        <div className="flex items-center gap-4 sm:gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           <Icon className="w-10 h-10 sm:w-8 sm:h-8" />
           <h4 className="text-2xl sm:text-xl font-semibold">{title}</h4>
         </div>
@@ -35,7 +35,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, gradient,
           </span>
         </Button>
   
-        <SvgComponent className="absolute bottom-[-10px] sm:bottom-[-10px] right-[-2x] sm:right-[-2px] w-[400px] sm:w-[300px]  max-w-full max-h-full object-contain" />
+        <SvgComponent className="absolute bottom-[-10px] sm:bottom-[-10px] right-[-2x] sm:right-[-2px] w-[400px] sm:w-[300px]  hidden sm:block max-w-full max-h-full object-contain" />
       </div>
     );
   };
