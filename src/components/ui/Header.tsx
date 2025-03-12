@@ -28,20 +28,20 @@ const Header: React.FC = () => {
           
           <div className="flex items-center ml-9 space-x-5">
           <div className="w-[3px] h-[20px] bg-gray-300"></div>
-            <Button variant="ghost" className="text-black font-semibold text-[19px]">
+            <Button variant="ghost" className="text-black font-semibold text-[21px]">
               Product
             </Button>
-            <Button variant="ghost" className="text-black font-semibold text-[19px]">
+            <Button variant="ghost" className="text-black font-semibold text-[21px]">
               Pricing
             </Button>
           </div>
 
           <div className="flex items-center space-x-5">
-            <Button variant="ghost" className="text-black text-[19px] font-semibold">
+            <Button variant="ghost" className="text-black text-[21px] font-semibold">
               Contact us
             </Button>
             <div className="w-[3px] h-[20px] bg-gray-300"></div>
-            <Button variant="ghost" className="text-black text-[19px] font-semibold">
+            <Button variant="ghost" className="text-black text-[21px] font-semibold">
               Log In
             </Button>
             <Button className="flex items-center space-x-2 pl-5 pr-2 py-2 bg-black text-white text-[15px] rounded-full">

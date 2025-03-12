@@ -9,7 +9,7 @@ const HeroBlock: React.FC = () => {
       <div className="relative w-full max-w-[1400px] h-auto rounded-[50px] bg-white p-7 flex flex-col items-center text-center">
         <HeroBackground />
 
-        <h1 className="text-[80px] leading-[100%] tracking-[-2%] text-black max-w-[1250px] z-[2] mt-[120px]
+        <h1 className="text-[32px] leading-[100%] tracking-[-2%] text-black max-w-[1250px] z-[2] mt-[120px]
           lg:text-[80px] lg:max-w-[1250px] 
           md:text-[60px] md:max-w-[95%] md:mt-[80px] 
           sm:text-[40px] sm:max-w-[90%] sm:mt-[60px] 
