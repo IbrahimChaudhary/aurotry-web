@@ -1,4 +1,5 @@
 import BenefitsSection from "@/components/ui/benefits-section";
+import FAQSection from "@/components/ui/faq-section";
 import FeaturesSection from "@/components/ui/features-section";
 import Footer from "@/components/ui/footer";
 import Header from "@/components/ui/header";
@@ -13,6 +14,7 @@ export default function Home() {
     <BenefitsSection/>
     <FeaturesSection/>
     <PlansSection/>
+    <FAQSection/>
     <Footer/>
 
    </>

@@ -27,7 +27,7 @@ const plans = [
 
 const PlansSection: React.FC = () => {
     return (
-      <section className="w-full max-w-[1440px] px-4 sm:px-8 flex flex-col items-center gap-5">
+      <section className="w-full mx-auto px-4 sm:px-8 flex flex-col items-center gap-5">
         <div className="w-full max-w-[713px] text-center">
           <h3 className="text-[32px] sm:text-[47px] font-semibold leading-[120%] text-black">
             Ready to Transform Your E-Commerce Experience?
@@ -51,31 +51,4 @@ const PlansSection: React.FC = () => {
     );
   };
   
-
-// const PlansSection: React.FC = () => {
-//   return (
-//     <section className="w-[1440px] h-[1010px] flex flex-col items-center gap-5">
-//       <div className="w-[713px] h-[216px] text-center">
-//         <h3 className="text-[47px] font-semibold leading-[120%] text-black">
-//           Ready to Transform Your E-Commerce Experience?
-//         </h3>
-//         <h5 className="text-[27px] mt-5 font-semibold leading-[120%] text-[#737477]">
-//           Choose an Aurotry plan that fits your budget and business goals.
-//         </h5>
-//       </div>
-//       <Button variant="default" className="w-[286px] h-[48px] flex items-center gap-2 rounded-full">
-//         Start Your Free Trial Today
-//         <span className="w-9 h-9 flex items-center justify-center rounded-full bg-white">
-//           <ArrowRight className="text-black w-5 h-5" />
-//         </span>
-//       </Button>
-//       <div className="w-[1440px] flex justify-center gap-8">
-//         {plans.map((plan, index) => (
-//           <PlanCard key={index} {...plan} />
-//         ))}
-//       </div>
-//     </section>
-//   );
-// };
-
-export default PlansSection;
+  export default PlansSection;
