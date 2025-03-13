@@ -35,8 +35,9 @@ export const HeroBackground: React.FC = () => {
         height={800}
         className="absolute top-[320px] right-[0px] rounded-[50]"
       />
+
+      <div className="absolute bottom-0 left-0 w-full h-[10%] bg-gradient-to-b from-[#FFFFFE] to-[#F7F8FF] hidden md:block"></div>
+
     </div>
   );
 };
-
-

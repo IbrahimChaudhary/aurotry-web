@@ -5,6 +5,8 @@ import { Menu, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Logo from "./icons/logo";
 
+console.log("Header component reloaded");
+
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,7 +20,7 @@ const Header: React.FC = () => {
 
         <Button
           variant="ghost"
-          className="lg:hidden flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full"
+          className="lg:hidden flex items-center justify-center w-10 h-10 bg-[#CACACB] rounded-full"
           onClick={() => setIsOpen(!isOpen)}
         >
           <Menu className="w-6 h-6 text-black" />
@@ -44,10 +46,10 @@ const Header: React.FC = () => {
             <Button variant="ghost" className="text-black text-[21px] font-semibold">
               Log In
             </Button>
-            <Button className="flex items-center space-x-2 pl-5 pr-2 py-2 bg-black text-white text-[15px] rounded-full">
+            <Button className="flex items-center  pl-5 pr-2 py-6 bg-black text-white text-[15px] font-semibold leading-[100%] rounded-full">
               <span>Sign Up</span>
-              <span className="relative flex items-center justify-center w-6 h-6 bg-white rounded-full">
-                <ArrowRight className="w-4 h-4 text-black" />
+              <span className="relative flex items-center justify-center w-8 h-8 bg-white rounded-full">
+                <ArrowRight className="w-6 h-6 text-black" />
               </span>
             </Button>
           </div>
