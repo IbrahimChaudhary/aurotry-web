@@ -15,7 +15,6 @@ const Header: React.FC = () => {
       <div className="w-full max-w-[1320px] h-[72px] bg-white shadow-md rounded-[1000px] flex items-center px-6 justify-between">
         <div className="flex items-center">
           <Logo width={40} height={40} />
-         
         </div>
 
         <Button
@@ -27,31 +26,46 @@ const Header: React.FC = () => {
         </Button>
 
         <div className="hidden lg:flex flex-1 justify-between items-center">
-          
           <div className="flex items-center ml-9 space-x-5">
-          <div className="w-[3px] h-[20px] bg-gray-300"></div>
-            <Button variant="ghost" className="text-black font-semibold text-[21px]">
+            <div className="w-[3px] h-[20px] bg-gray-300"></div>
+            <Button
+              variant="ghost"
+              className="text-black font-semibold text-[21px]"
+            >
               Product
             </Button>
-            <Button variant="ghost" className="text-black font-semibold text-[21px]">
+            <Button
+              variant="ghost"
+              className="text-black font-semibold text-[21px]"
+            >
               Pricing
             </Button>
           </div>
 
           <div className="flex items-center space-x-5">
-            <Button variant="ghost" className="text-black text-[21px] font-semibold">
+            <Button
+              variant="ghost"
+              className="text-black text-[21px] font-semibold"
+            >
               Contact us
             </Button>
             <div className="w-[3px] h-[20px] bg-gray-300"></div>
-            <Button variant="ghost" className="text-black text-[21px] font-semibold">
-              Log In
-            </Button>
-            <Button className="flex items-center  pl-5 pr-2 py-6 bg-black text-white text-[15px] font-semibold leading-[100%] rounded-full">
-              <span>Sign Up</span>
-              <span className="relative flex items-center justify-center w-8 h-8 bg-white rounded-full">
-                <ArrowRight className="w-6 h-6 text-black" />
-              </span>
-            </Button>
+            <a href="/dashboard">
+              <Button
+                variant="ghost"
+                className="text-black text-[21px] font-semibold"
+              >
+                Log In
+              </Button>
+            </a>
+            <a href="/dashboard">
+              <Button className="flex items-center  pl-5 pr-2 py-6 bg-black text-white text-[15px] font-semibold leading-[100%] rounded-full">
+                <span>Sign Up</span>
+                <span className="relative flex items-center justify-center w-8 h-8 bg-white rounded-full">
+                  <ArrowRight className="w-6 h-6 text-black" />
+                </span>
+              </Button>
+            </a>
           </div>
         </div>
       </div>
