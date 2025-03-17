@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { Menu, ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/landing-page/ui/button";
 import Logo from "./icons/logo";
 
 console.log("Header component reloaded");
@@ -50,7 +50,7 @@ const Header: React.FC = () => {
               Contact us
             </Button>
             <div className="w-[3px] h-[20px] bg-gray-300"></div>
-            <a href="/dashboard">
+            <a href="/login">
               <Button
                 variant="ghost"
                 className="text-black text-[21px] font-semibold"
@@ -58,7 +58,7 @@ const Header: React.FC = () => {
                 Log In
               </Button>
             </a>
-            <a href="/dashboard">
+            <a href="/signup">
               <Button className="flex items-center  pl-5 pr-2 py-6 bg-black text-white text-[15px] font-semibold leading-[100%] rounded-full">
                 <span>Sign Up</span>
                 <span className="relative flex items-center justify-center w-8 h-8 bg-white rounded-full">

@@ -1,10 +1,10 @@
-import BenefitsSection from "@/components/ui/benefits-section";
-import FAQSection from "@/components/ui/faq-section";
-import FeaturesSection from "@/components/ui/features-section";
-import Footer from "@/components/ui/Footer";
-import Header from "@/components/ui/Header";
-import HeroBlock from "@/components/ui/hero-block";
-import PlansSection from "@/components/ui/plans-section";
+import BenefitsSection from "@/components/landing-page/ui/benefits-section";
+import FAQSection from "@/components/landing-page/ui/faq-section";
+import FeaturesSection from "@/components/landing-page/ui/features-section";
+import Footer from "@/components/landing-page/ui/Footer";
+import Header from "@/components/landing-page/ui/Header";
+import HeroBlock from "@/components/landing-page/ui/hero-block";
+import PlansSection from "@/components/landing-page/ui/plans-section";
 
 export default function Home() {
   return (

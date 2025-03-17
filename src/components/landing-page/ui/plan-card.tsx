@@ -1,6 +1,6 @@
 import React from "react";
 import { Check, ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/landing-page/ui/button";
 
 interface PlanCardProps {
   title: string;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Mail, Phone, ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button"; 
+import { Button } from "@/components/landing-page/ui/button"; 
 import Logo from "./icons/logo";
 
 const Footer: React.FC = () => {

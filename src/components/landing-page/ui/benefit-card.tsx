@@ -1,4 +1,4 @@
-import { Card } from "@/components/ui/card";
+import { Card } from "@/components/landing-page/ui/card";
 import Logo from "./icons/logo";
 
 interface BenefitCardProps {

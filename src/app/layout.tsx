@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner";
+import QueryProvider from "@/lib/react-query";
 
 const workSans = Work_Sans({
   variable: "--font-work-sans",
@@ -20,9 +22,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={workSans.variable}>
       <body
-        className={`${workSans.variable} ${workSans.variable} font-sans antialiased`}
+        className={`${workSans.variable}  ${workSans.variable} font-sans antialiased`}
       >
-        {children}
+        <QueryProvider>
+          <main className="w-full max-w-[1440px] mx-auto">{children}</main>
+          <Toaster />
+        </QueryProvider>
       </body>
     </html>
   );

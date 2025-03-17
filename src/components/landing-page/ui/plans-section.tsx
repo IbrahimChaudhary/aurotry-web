@@ -1,6 +1,6 @@
 import React from "react";
 import PlanCard from "./plan-card";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/landing-page/ui/button";
 import { ArrowRight } from "lucide-react";
 
 const plans = [
